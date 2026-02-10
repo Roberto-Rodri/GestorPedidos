@@ -1,3 +1,9 @@
+# ============================================
+# Autor: Roberto Carlos Jimenez Rodriguez
+# Version: 1.0
+# Proposito: Generar de manera aleatoria datos
+# ============================================
+
 import pandas as pd
 import random
 
@@ -44,15 +50,75 @@ estados = [
     "pagado", "pendiente", "cancelado"
 ]
 
+# --- Direcciones disponibles ---
+
+direcciones = [
+    "Av. Reforma 405, Col. Centro", "Calle 16 de Septiembre 12, Col. Juárez", "Calle Benito Juárez 88, Barrio San Juan",
+    "Av. Insurgentes Sur 1520, Col. Del Valle", "Calzada de Tlalpan 250, Col. Álamos", "Calle Morelos 45, Col. Obrera",
+    "Av. Universidad 10, Col. Copilco", "Calle Miguel Hidalgo 302, Col. San Ángel", "Av. Chapultepec 77, Col. Roma Norte",
+    "Calle Aquiles Serdán 15, Col. Libertad", "Av. Juárez 90, Col. Cuauhtémoc", "Calle Vicente Guerrero 210, Col. Morelos",
+    "Paseo de los Leones 450, Col. Cumbres", "Calle Francisco I. Madero 33, Centro Histórico", "Av. Vallarta 2030, Col. Americana",
+    "Calle Álvaro Obregón 154, Col. Condesa", "Av. Manuel Ávila Camacho 50, Col. Lomas Verdes", "Calle 5 de Mayo 102, Col. Centro",
+    "Boulevard Kukulcán 12.5, Zona Hotelera", "Av. de los Maestros 80, Col. Nueva Santa María", "Calle Ignacio Allende 44, Barrio del Artista",
+    "Av. Constitución 400, Col. Obrera", "Calle Lázaro Cárdenas 120, Col. Industrial", "Av. Adolfo López Mateos 30, Col. Jardines",
+    "Calle Emiliano Zapata 9, Col. Doctores", "Av. Paseo de la Reforma 222, Col. Juárez", "Calle Venustiano Carranza 67, Col. Centro",
+    "Av. Pedro Infante 1500, Col. Recursos Hidráulicos", "Calle Josefa Ortiz de Domínguez 22, Barrio La Purísima", "Av. División del Norte 145, Col. Portales",
+    "Calle Mariano Matamoros 18, Col. Guerrero", "Av. Canal de Miramontes 300, Col. Coapa", "Calle Pino Suárez 5, Barrio San Marcos",
+    "Av. Patria 450, Col. Zapopan Centro", "Calle Niños Héroes 89, Col. Americana", "Av. Eugenio Garza Sada 2501, Col. Tecnológico",
+    "Calle Aldama 12, Barrio de Jalatlaco", "Av. Revolución 150, Col. San Ángel", "Calle Mariano Escobedo 400, Col. Anzures",
+    "Av. Tecnológico 100, Col. Metepec Centro", "Calle Abasolo 55, Col. Barrio Antiguo", "Av. Industrias 205, Zona Industrial",
+    "Calle Galeana 14, Col. Centro", "Av. 20 de Noviembre 88, Col. Centro", "Calle Rayón 210, Barrio de la Merced",
+    "Av. Paseo de los Leones 120, Col. Cumbres", "Calle Belisario Domínguez 3, Col. Centro", "Av. Lomas de Chapultepec 500, Sección III",
+    "Calle Libertad 44, Barrio de Santiago", "Av. Solidaridad 300, Col. Ventura Puente", "Calle Independencia 70, Col. Santa María",
+    "Av. Universidad 500, Col. Lomas del Campestre", "Calle Corregidora 12, Centro Histórico", "Av. López Mateos Norte 10, Col. Ladron de Guevara",
+    "Calle Iturbide 99, Col. Centro", "Av. Prolongación Paseo de la Reforma 1200, Col. Santa Fe", "Calle 2 de Abril 15, Col. Tequisquiapan",
+    "Av. San Claudio 10, Col. Jardines de San Manuel", "Calle Mina 33, Barrio de San Sebastián", "Av. Zaragoza 50, Col. Centro",
+    "Calle Ocampo 202, Col. Centro Norte", "Av. Manuel J. Clouthier 45, Col. Pilares", "Calle Tamaulipas 30, Col. Hipódromo Condesa",
+    "Av. Marina Nacional 60, Col. Anáhuac", "Calle Sonora 140, Col. Roma Sur", "Av. Cuauhtémoc 15, Col. Narvarte",
+    "Calle Veracruz 8, Col. Rodríguez", "Av. Manuel Ordóñez 300, Col. Santa Catarina Centro", "Calle Aguascalientes 45, Col. Roma",
+    "Av. Plutarco Elías Calles 120, Col. Granjas México", "Calle Sinaloa 55, Col. Peñitas", "Av. Gustavo Baz 20, Col. Xocoyahualco",
+    "Calle Durango 12, Col. Roma Norte", "Av. Central 50, Col. Valle de Aragón", "Calle Nayarit 88, Col. San Benito",
+    "Av. Prolongación Guerrero 15, Col. Centro", "Calle Michoacán 33, Col. Condesa", "Av. Lázaro Cárdenas 25, Col. Valle Oriente",
+    "Calle Tlaxcala 102, Col. San Rafael", "Av. Xola 400, Col. Del Valle Norte", "Calle Colima 15, Col. Roma Norte",
+    "Av. Primero de Mayo 10, Col. Industrial", "Calle Tabasco 55, Col. Roma Norte", "Av. de los Insurgentes 100, Col. Tabacalera",
+    "Calle Campeche 210, Col. Hipódromo", "Av. Prolongación Montejo 450, Col. Itzimná", "Calle Yucatán 12, Col. Roma Norte",
+    "Av. Paseo de la Victoria 30, Col. Ciudad Juárez", "Calle Chiapas 44, Col. Roma Norte", "Av. Bernardo Quintana 150, Col. Alamos Segunda Seccion",
+    "Calle Oaxaca 8, Col. Roma Norte", "Av. 5 de Febrero 1000, Col. San Pablo", "Calle Guerrero 22, Col. Centro",
+    "Av. Abraham Lincoln 4500, Col. Puerta de Hierro", "Calle Quintana Roo 55, Col. Roma Sur", "Av. Paseo de los Héroes 10, Zona Río",
+    "Calle Quetzalcóatl 12, Barrio de San Miguel", "Av. López Portillo 30, Col. Guadalupe", "Calle Popocatépetl 5, Col. Prado Ermita",
+    "Av. Paseo Tabasco 1200, Col. Tabasco 2000"
+]
+
+clientes_info = {}
+
 pedidos = {}
 
-# --- Generacion de pedidos de manera aleatoria ---
+# --- Generacion de informacion de los clientes de manera aletoria ---
 
+for i in range(1,21):
+    nombre = random.choice(nombres_clientes)
+    clientes_info[nombre] = {
+        "direccion": random.choice(direcciones),
+        "edad": random.randint(18,99),
+        "telefono": random.randint(1000000000,9999999999)
+    }
+
+# --- Generación de pedidos de manera aleatoria ---
 for i in range(1, 21):
+
+    # Eleccion de un nombre de manera aleatoria
+    nombre_elegido = random.choice(list(clientes_info.keys()))
+    
+    # Obtenencion de datos para nombre_elegido
+    info_del_cliente = clientes_info[nombre_elegido]
+    
+    # Armado de su pedido
     pedidos[i] = {
-        "cliente": random.choice(nombres_clientes),
+        "cliente": nombre_elegido,
+        "direccion": info_del_cliente["direccion"],
+        "edad_cliente": info_del_cliente["edad"],
         "producto": random.choice(nombres_productos),
-        "cantidad": random.randint(1,5),
+        "cantidad": random.randint(1, 5),
         "estado": random.choice(estados)
     }
 
