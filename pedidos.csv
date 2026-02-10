@@ -1,0 +1,21 @@
+cliente,direccion,edad_cliente,producto,cantidad,estado
+Ignacio Guerrero,"Av. Pedro Infante 1500, Col. Recursos Hidráulicos",66,Jamón de Pavo (250g),3,cancelado
+Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,5,pagado
+Luisa Montaño,"Calle Ignacio Allende 44, Barrio del Artista",71,Atún en Agua (140g),5,pagado
+Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Shampoo (750ml),1,pagado
+Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Huevo Blanco (18 piezas),4,pendiente
+Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Azúcar Estándar (1kg),1,pagado
+Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Pasta para Sopa (200g),1,cancelado
+Blanca Trejo,"Calle Colima 15, Col. Roma Norte",36,Jamón de Pavo (250g),5,pendiente
+Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Aceite Vegetal (1L),5,pagado
+Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Jamón de Pavo (250g),4,pendiente
+Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Agua Mineral (600ml),4,pendiente
+Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,3,pendiente
+Adriana Esquivel,"Av. Paseo de los Héroes 10, Zona Río",60,Agua Mineral (600ml),1,pendiente
+Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Refresco de Cola (600ml),1,cancelado
+Mónica Espinoza,"Av. de los Maestros 80, Col. Nueva Santa María",83,Shampoo (750ml),2,pagado
+Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Tortillas de Harina (10 pzas),5,pagado
+Luis Delgado,"Calle Galeana 14, Col. Centro",77,Pasta de Dientes,2,pendiente
+Juana Soto,"Calle Mina 33, Barrio de San Sebastián",18,Cloro (1L),2,pendiente
+Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Queso Panela (400g),3,cancelado
+Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Suavizante de Telas (1L),1,pagado
