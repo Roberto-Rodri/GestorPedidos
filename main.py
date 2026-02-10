@@ -13,6 +13,7 @@ print("""
 4. Inferir información a partir de reglas lógicas
 0. Salir
 """)
+
 opcion = str(input("Elige la opción: "))
 match opcion:
     case "3":

@@ -1,21 +1,21 @@
 cliente,direccion,edad_cliente,producto,cantidad,estado
-Ignacio Guerrero,"Av. Pedro Infante 1500, Col. Recursos Hidráulicos",66,Jamón de Pavo (250g),3,cancelado
-Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,5,pagado
-Luisa Montaño,"Calle Ignacio Allende 44, Barrio del Artista",71,Atún en Agua (140g),5,pagado
-Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Shampoo (750ml),1,pagado
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Huevo Blanco (18 piezas),4,pendiente
-Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Azúcar Estándar (1kg),1,pagado
-Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Pasta para Sopa (200g),1,cancelado
-Blanca Trejo,"Calle Colima 15, Col. Roma Norte",36,Jamón de Pavo (250g),5,pendiente
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Aceite Vegetal (1L),5,pagado
-Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Jamón de Pavo (250g),4,pendiente
-Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Agua Mineral (600ml),4,pendiente
-Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,3,pendiente
-Adriana Esquivel,"Av. Paseo de los Héroes 10, Zona Río",60,Agua Mineral (600ml),1,pendiente
-Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Refresco de Cola (600ml),1,cancelado
-Mónica Espinoza,"Av. de los Maestros 80, Col. Nueva Santa María",83,Shampoo (750ml),2,pagado
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Tortillas de Harina (10 pzas),5,pagado
-Luis Delgado,"Calle Galeana 14, Col. Centro",77,Pasta de Dientes,2,pendiente
-Juana Soto,"Calle Mina 33, Barrio de San Sebastián",18,Cloro (1L),2,pendiente
-Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Queso Panela (400g),3,cancelado
-Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Suavizante de Telas (1L),1,pagado
+Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Queso Panela (400g),4,cancelado
+Dolores Flores,"Calle Ocampo 202, Col. Centro Norte",53,Sal de Mesa (1kg),1,pendiente
+Raquel Sotelo,"Calle Veracruz 8, Col. Rodríguez",92,Chocolate en Polvo (400g),1,pagado
+Joaquín Parra,"Calle Durango 12, Col. Roma Norte",55,Sal de Mesa (1kg),2,pagado
+Teresa Reyes,"Calle Francisco I. Madero 33, Centro Histórico",47,Papas Fritas Saladas,5,pagado
+Javier Álvarez,"Av. Lázaro Cárdenas 25, Col. Valle Oriente",78,Encendedor de Cocina,2,pendiente
+Pedro Ramírez,"Calle Emiliano Zapata 9, Col. Doctores",43,Azúcar Estándar (1kg),5,pendiente
+Leonardo Pacheco,"Av. Revolución 150, Col. San Ángel",68,Cloro (1L),5,cancelado
+Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Frijol Negro (1kg),1,pendiente
+Rosa Cruz,"Av. Xola 400, Col. Del Valle Norte",65,Shampoo (750ml),3,pendiente
+Esteban Jurado,"Av. División del Norte 145, Col. Portales",60,Agua Mineral (600ml),4,pendiente
+Raquel Sotelo,"Calle Veracruz 8, Col. Rodríguez",92,Galletas Marías (170g),3,pendiente
+Dolores Flores,"Calle Ocampo 202, Col. Centro Norte",53,Leche Entera (1L),2,pagado
+Juana Soto,"Calle Independencia 70, Col. Santa María",64,Pan de Caja Blanco,5,pendiente
+Rosario Galván,"Av. Patria 450, Col. Zapopan Centro",85,Agua Mineral (600ml),3,pagado
+Eduardo Romero,"Calle Michoacán 33, Col. Condesa",38,Mayonesa (390g),3,pagado
+Javier Álvarez,"Av. Lázaro Cárdenas 25, Col. Valle Oriente",78,Tortillas de Harina (10 pzas),1,pendiente
+Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Encendedor de Cocina,5,pendiente
+Guadalupe Torres,"Calle Guerrero 22, Col. Centro",21,Sal de Mesa (1kg),3,pendiente
+Rosario Galván,"Av. Patria 450, Col. Zapopan Centro",85,Queso Panela (400g),1,pendiente
