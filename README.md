@@ -1,11 +1,6 @@
 # GestorPedidos
+El objetivo principal es hacer uso y demostrar cómo la combinación de funciones puras, recursividad y funciones de orden superior permite resolver problemas complejos de gestión como el cálculo de totales y la consulta de estados de pedidos de manera eficiente.
 
-## En este proyecto se utilizan **funciones puras**. 
+El sistema gestiona pedidos de una tienda , donde cada registro incluye cliente , producto, cantidad y estado (pagado , pendiente o cancelado).
+El objetivo general es automatizar el cálculo de totales, filtrar pedidos por estado y permitir consultas sobre la base de los datos en ventas.
 
-Nuestro equipo decidio generar los datos de manera aleatoria y asignacion aleatoria. 
-
-## En total contamos con 4 diccionarios con valores pre-definidos y 2 diccionarios llenados de manera aleatoria
-
-Mediante generacion de numeros de manera aleatorita y asignacion aleatoria armamos una base de datos con un total de 20 pedidos y con la posibilidad de modificar su extension mas adelante
-
-## Una vez generada la base de datos, el main.py puede:
