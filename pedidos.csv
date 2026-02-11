@@ -1,21 +1,21 @@
 cliente,direccion,edad_cliente,producto,cantidad,estado
-Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Queso Panela (400g),4,cancelado
-Dolores Flores,"Calle Ocampo 202, Col. Centro Norte",53,Sal de Mesa (1kg),1,pendiente
-Raquel Sotelo,"Calle Veracruz 8, Col. Rodríguez",92,Chocolate en Polvo (400g),1,pagado
-Joaquín Parra,"Calle Durango 12, Col. Roma Norte",55,Sal de Mesa (1kg),2,pagado
-Teresa Reyes,"Calle Francisco I. Madero 33, Centro Histórico",47,Papas Fritas Saladas,5,pagado
-Javier Álvarez,"Av. Lázaro Cárdenas 25, Col. Valle Oriente",78,Encendedor de Cocina,2,pendiente
-Pedro Ramírez,"Calle Emiliano Zapata 9, Col. Doctores",43,Azúcar Estándar (1kg),5,pendiente
-Leonardo Pacheco,"Av. Revolución 150, Col. San Ángel",68,Cloro (1L),5,cancelado
-Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Frijol Negro (1kg),1,pendiente
-Rosa Cruz,"Av. Xola 400, Col. Del Valle Norte",65,Shampoo (750ml),3,pendiente
-Esteban Jurado,"Av. División del Norte 145, Col. Portales",60,Agua Mineral (600ml),4,pendiente
-Raquel Sotelo,"Calle Veracruz 8, Col. Rodríguez",92,Galletas Marías (170g),3,pendiente
-Dolores Flores,"Calle Ocampo 202, Col. Centro Norte",53,Leche Entera (1L),2,pagado
-Juana Soto,"Calle Independencia 70, Col. Santa María",64,Pan de Caja Blanco,5,pendiente
-Rosario Galván,"Av. Patria 450, Col. Zapopan Centro",85,Agua Mineral (600ml),3,pagado
-Eduardo Romero,"Calle Michoacán 33, Col. Condesa",38,Mayonesa (390g),3,pagado
-Javier Álvarez,"Av. Lázaro Cárdenas 25, Col. Valle Oriente",78,Tortillas de Harina (10 pzas),1,pendiente
-Sandra Valencia,"Av. Paseo de los Héroes 10, Zona Río",39,Encendedor de Cocina,5,pendiente
-Guadalupe Torres,"Calle Guerrero 22, Col. Centro",21,Sal de Mesa (1kg),3,pendiente
-Rosario Galván,"Av. Patria 450, Col. Zapopan Centro",85,Queso Panela (400g),1,pendiente
+Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Arroz Extra (1kg),2,pendiente
+Francisco López,"Av. Revolución 150, Col. San Ángel",24,Jabón de Tocador,3,pendiente
+Francisco López,"Av. Revolución 150, Col. San Ángel",24,Galletas Marías (170g),2,pagado
+Claudia Beltrán,"Av. Industrias 205, Zona Industrial",52,Cereal de Maíz (500g),2,pagado
+Socorro Arellano,"Av. Patria 450, Col. Zapopan Centro",31,Salsa de Tomate (210g),1,pendiente
+Claudia Beltrán,"Av. Industrias 205, Zona Industrial",52,Limpiador de Pisos (1L),1,pagado
+Olga Herrera,"Av. Chapultepec 77, Col. Roma Norte",37,Pan de Caja Blanco,1,cancelado
+Fabián Aguirre,"Calle Quetzalcóatl 12, Barrio de San Miguel",27,Arroz Extra (1kg),2,pagado
+Julia Cabrera,"Calle Vicente Guerrero 210, Col. Morelos",83,Pasta de Dientes,2,pagado
+Fabián Aguirre,"Calle Quetzalcóatl 12, Barrio de San Miguel",27,Queso Panela (400g),4,pagado
+Matías Mares,"Calle Venustiano Carranza 67, Col. Centro",23,Sal de Mesa (1kg),5,pagado
+Simón Cárdenas,"Calle Quetzalcóatl 12, Barrio de San Miguel",20,Jabón de Trastes Líquido,3,pendiente
+Francisco López,"Av. Revolución 150, Col. San Ángel",24,Chiles Jalapeños en Vinagre,1,pagado
+Socorro Arellano,"Av. Patria 450, Col. Zapopan Centro",31,Jamón de Pavo (250g),5,pagado
+Simón Cárdenas,"Calle Quetzalcóatl 12, Barrio de San Miguel",20,Galletas Marías (170g),4,pagado
+Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Huevo Blanco (18 piezas),4,cancelado
+Fernando Mendoza,"Paseo de los Leones 450, Col. Cumbres",84,Jamón de Pavo (250g),1,cancelado
+Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Cloro (1L),2,pendiente
+Matías Mares,"Calle Venustiano Carranza 67, Col. Centro",23,Yogurt para Beber,3,cancelado
+Felipe Islas,"Calle Guerrero 22, Col. Centro",45,Café Soluble (190g),5,pagado
