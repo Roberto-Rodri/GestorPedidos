@@ -1,21 +1,21 @@
-cliente,direccion,edad_cliente,producto,cantidad,estado
-Ignacio Guerrero,"Av. Pedro Infante 1500, Col. Recursos Hidráulicos",66,Jamón de Pavo (250g),3,cancelado
-Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,5,pagado
-Luisa Montaño,"Calle Ignacio Allende 44, Barrio del Artista",71,Atún en Agua (140g),5,pagado
-Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Shampoo (750ml),1,pagado
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Huevo Blanco (18 piezas),4,pendiente
-Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Azúcar Estándar (1kg),1,pagado
-Miguel Gómez,"Av. López Portillo 30, Col. Guadalupe",87,Pasta para Sopa (200g),1,cancelado
-Blanca Trejo,"Calle Colima 15, Col. Roma Norte",36,Jamón de Pavo (250g),5,pendiente
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Aceite Vegetal (1L),5,pagado
-Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Jamón de Pavo (250g),4,pendiente
-Rogelio Salazar,"Av. Plutarco Elías Calles 120, Col. Granjas México",96,Agua Mineral (600ml),4,pendiente
-Verónica Méndez,"Calle Libertad 44, Barrio de Santiago",99,Jabón de Trastes Líquido,3,pendiente
-Adriana Esquivel,"Av. Paseo de los Héroes 10, Zona Río",60,Agua Mineral (600ml),1,pendiente
-Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Refresco de Cola (600ml),1,cancelado
-Mónica Espinoza,"Av. de los Maestros 80, Col. Nueva Santa María",83,Shampoo (750ml),2,pagado
-Angélica Montes,"Calle 2 de Abril 15, Col. Tequisquiapan",54,Tortillas de Harina (10 pzas),5,pagado
-Luis Delgado,"Calle Galeana 14, Col. Centro",77,Pasta de Dientes,2,pendiente
-Juana Soto,"Calle Mina 33, Barrio de San Sebastián",18,Cloro (1L),2,pendiente
-Alejandra Mares,"Av. Manuel Ordóñez 300, Col. Santa Catarina Centro",32,Queso Panela (400g),3,cancelado
-Marta Castillo,"Calle Yucatán 12, Col. Roma Norte",66,Suavizante de Telas (1L),1,pagado
+cliente,direccion,edad_cliente,producto,precio,cantidad,total,estado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Mayonesa (390g),55.0,4,220.0,cancelado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Tortillas de Harina (10 pzas),24.0,5,120.0,pendiente
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jabón de Tocador,14.0,4,56.0,cancelado
+Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Aceite Vegetal (1L),58.0,3,174.0,pagado
+Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Pasta para Sopa (200g),11.5,1,11.5,pendiente
+Josefa Vázquez,"Av. Canal de Miramontes 300, Col. Coapa",99,Huevo Blanco (18 piezas),62.0,1,62.0,pagado
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Suavizante de Telas (1L),38.0,2,76.0,pagado
+Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Frijol Negro (1kg),42.0,4,168.0,pendiente
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Refresco de Cola (600ml),19.0,4,76.0,cancelado
+Patricia Leyva,"Calle Veracruz 8, Col. Rodríguez",67,Papas Fritas Saladas,17.5,1,17.5,pendiente
+Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Aceite Vegetal (1L),58.0,3,174.0,pendiente
+Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Tortillas de Harina (10 pzas),24.0,2,48.0,cancelado
+Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Atún en Agua (140g),21.0,5,105.0,pendiente
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Limpiador de Pisos (1L),26.0,3,78.0,cancelado
+Mario Medina,"Av. Prolongación Guerrero 15, Col. Centro",27,Frijol Negro (1kg),42.0,3,126.0,cancelado
+María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Huevo Blanco (18 piezas),62.0,4,248.0,cancelado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jamón de Pavo (250g),58.0,4,232.0,cancelado
+María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Queso Panela (400g),82.0,2,164.0,cancelado
+Silvia Castro,"Calle Independencia 70, Col. Santa María",62,Jabón de Trastes Líquido,32.5,1,32.5,pagado
+Pilar Juárez,"Calle Tabasco 55, Col. Roma Norte",31,Sal de Mesa (1kg),15.5,2,31.0,pagado
