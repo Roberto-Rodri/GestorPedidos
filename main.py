@@ -20,13 +20,25 @@ while True:
     match opcion:
         case "1":
             total_pedidos = n.total_pedidos(df)
+            print("=" * 50)
             print(f"El numero total de pedidos es: {total_pedidos}")
+            print("=" * 50)
         case "2":
             total_pagados = n.total_pagados(df)
-            print(total_pagados)
+            print("=" * 50)
+            print(f"El ingreso total de los pedidos pagados es: {total_pagados}")
+            print("=" * 50)
         case "3":
             nombre = str(input("Ingrese el nombre del cliente: "))
+            print("Informacion del cliente")
+            print("=" * 50)
             print(y.consultar_info(df, nombre))
+            print("=" * 50)
+        case "4":
+            print("Pedidos listos para envio")
+            print("=" * 50)
+            print(y.inferir_info(df))
+            print("=" * 50)
         case "0":
             print("Saliendo...")
             break

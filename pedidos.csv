@@ -1,21 +1,21 @@
-cliente,direccion,edad_cliente,producto,cantidad,estado
-Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Arroz Extra (1kg),2,pendiente
-Francisco López,"Av. Revolución 150, Col. San Ángel",24,Jabón de Tocador,3,pendiente
-Francisco López,"Av. Revolución 150, Col. San Ángel",24,Galletas Marías (170g),2,pagado
-Claudia Beltrán,"Av. Industrias 205, Zona Industrial",52,Cereal de Maíz (500g),2,pagado
-Socorro Arellano,"Av. Patria 450, Col. Zapopan Centro",31,Salsa de Tomate (210g),1,pendiente
-Claudia Beltrán,"Av. Industrias 205, Zona Industrial",52,Limpiador de Pisos (1L),1,pagado
-Olga Herrera,"Av. Chapultepec 77, Col. Roma Norte",37,Pan de Caja Blanco,1,cancelado
-Fabián Aguirre,"Calle Quetzalcóatl 12, Barrio de San Miguel",27,Arroz Extra (1kg),2,pagado
-Julia Cabrera,"Calle Vicente Guerrero 210, Col. Morelos",83,Pasta de Dientes,2,pagado
-Fabián Aguirre,"Calle Quetzalcóatl 12, Barrio de San Miguel",27,Queso Panela (400g),4,pagado
-Matías Mares,"Calle Venustiano Carranza 67, Col. Centro",23,Sal de Mesa (1kg),5,pagado
-Simón Cárdenas,"Calle Quetzalcóatl 12, Barrio de San Miguel",20,Jabón de Trastes Líquido,3,pendiente
-Francisco López,"Av. Revolución 150, Col. San Ángel",24,Chiles Jalapeños en Vinagre,1,pagado
-Socorro Arellano,"Av. Patria 450, Col. Zapopan Centro",31,Jamón de Pavo (250g),5,pagado
-Simón Cárdenas,"Calle Quetzalcóatl 12, Barrio de San Miguel",20,Galletas Marías (170g),4,pagado
-Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Huevo Blanco (18 piezas),4,cancelado
-Fernando Mendoza,"Paseo de los Leones 450, Col. Cumbres",84,Jamón de Pavo (250g),1,cancelado
-Blanca Trejo,"Calzada de Tlalpan 250, Col. Álamos",55,Cloro (1L),2,pendiente
-Matías Mares,"Calle Venustiano Carranza 67, Col. Centro",23,Yogurt para Beber,3,cancelado
-Felipe Islas,"Calle Guerrero 22, Col. Centro",45,Café Soluble (190g),5,pagado
+cliente,direccion,edad_cliente,producto,precio,cantidad,total,estado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Mayonesa (390g),55.0,4,220.0,cancelado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Tortillas de Harina (10 pzas),24.0,5,120.0,pendiente
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jabón de Tocador,14.0,4,56.0,cancelado
+Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Aceite Vegetal (1L),58.0,3,174.0,pagado
+Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Pasta para Sopa (200g),11.5,1,11.5,pendiente
+Josefa Vázquez,"Av. Canal de Miramontes 300, Col. Coapa",99,Huevo Blanco (18 piezas),62.0,1,62.0,pagado
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Suavizante de Telas (1L),38.0,2,76.0,pagado
+Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Frijol Negro (1kg),42.0,4,168.0,pendiente
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Refresco de Cola (600ml),19.0,4,76.0,cancelado
+Patricia Leyva,"Calle Veracruz 8, Col. Rodríguez",67,Papas Fritas Saladas,17.5,1,17.5,pendiente
+Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Aceite Vegetal (1L),58.0,3,174.0,pendiente
+Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Tortillas de Harina (10 pzas),24.0,2,48.0,cancelado
+Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Atún en Agua (140g),21.0,5,105.0,pendiente
+Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Limpiador de Pisos (1L),26.0,3,78.0,cancelado
+Mario Medina,"Av. Prolongación Guerrero 15, Col. Centro",27,Frijol Negro (1kg),42.0,3,126.0,cancelado
+María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Huevo Blanco (18 piezas),62.0,4,248.0,cancelado
+Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jamón de Pavo (250g),58.0,4,232.0,cancelado
+María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Queso Panela (400g),82.0,2,164.0,cancelado
+Silvia Castro,"Calle Independencia 70, Col. Santa María",62,Jabón de Trastes Líquido,32.5,1,32.5,pagado
+Pilar Juárez,"Calle Tabasco 55, Col. Roma Norte",31,Sal de Mesa (1kg),15.5,2,31.0,pagado
