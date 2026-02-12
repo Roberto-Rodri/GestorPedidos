@@ -1,21 +1,21 @@
 cliente,direccion,edad_cliente,producto,precio,cantidad,total,estado
-Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Azúcar Estándar (1kg),30.0,2,60.0,pendiente
-Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Arroz Extra (1kg),35.5,1,35.5,pendiente
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Yogurt para Beber,16.0,2,32.0,pendiente
-Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Sal de Mesa (1kg),15.5,3,46.5,cancelado
-Carlos Jiménez,"Calle Corregidora 12, Centro Histórico",30,Chocolate en Polvo (400g),65.0,3,195.0,pendiente
-Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Queso Panela (400g),82.0,5,410.0,pagado
-Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Agua Mineral (600ml),14.5,4,58.0,pendiente
-Gloria Silva,"Av. Marina Nacional 60, Col. Anáhuac",85,Shampoo (750ml),85.0,3,255.0,cancelado
-Eduardo Romero,"Calle Aguascalientes 45, Col. Roma",30,Queso Panela (400g),82.0,5,410.0,pendiente
-Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Mermelada de Fresa,42.0,3,126.0,pagado
-Patricia Leyva,"Calle Corregidora 12, Centro Histórico",85,Esponja para Trastes,12.0,3,36.0,pagado
-Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Cereal de Maíz (500g),72.0,5,360.0,cancelado
-Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Galletas Marías (170g),18.5,4,74.0,cancelado
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Frijol Negro (1kg),42.0,3,126.0,pendiente
-Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Atún en Agua (140g),21.0,5,105.0,pagado
-Rebeca Granados,"Av. Adolfo López Mateos 30, Col. Jardines",39,Cloro (1L),16.5,2,33.0,cancelado
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Refresco de Cola (600ml),19.0,5,95.0,cancelado
-Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Pasta para Sopa (200g),11.5,4,46.0,cancelado
-Ignacio Guerrero,"Calle Sonora 140, Col. Roma Sur",66,Detergente en Polvo (900g),45.0,1,45.0,pendiente
-Leonardo Pacheco,"Av. Eugenio Garza Sada 2501, Col. Tecnológico",89,Galletas Marías (170g),18.5,5,92.5,pagado
+Esther Medina,"Calle Morelos 45, Col. Obrera",80,Salsa de Tomate (210g),14.0,2,28.0,pendiente
+Esteban Jurado,"Av. Plutarco Elías Calles 120, Col. Granjas México",68,Aceite Vegetal (1L),58.0,1,58.0,pendiente
+Tomás Valenzuela,"Av. Insurgentes Sur 1520, Col. Del Valle",31,Harina de Trigo (1kg),22.0,1,22.0,cancelado
+Antonia Ruiz,"Calle Campeche 210, Col. Hipódromo",89,Papel Higiénico (4 rollos),34.0,2,68.0,pagado
+Esteban Jurado,"Av. Plutarco Elías Calles 120, Col. Granjas México",68,Mayonesa (390g),55.0,2,110.0,cancelado
+Esteban Jurado,"Av. Plutarco Elías Calles 120, Col. Granjas México",68,Azúcar Estándar (1kg),30.0,3,90.0,pendiente
+Graciela Bernal,"Av. Central 50, Col. Valle de Aragón",36,Jamón de Pavo (250g),58.0,3,174.0,cancelado
+Esther Medina,"Calle Morelos 45, Col. Obrera",80,Frijol Negro (1kg),42.0,2,84.0,cancelado
+Guadalupe Torres,"Av. Prolongación Paseo de la Reforma 1200, Col. Santa Fe",50,Frijol Negro (1kg),42.0,2,84.0,cancelado
+Ignacio Guerrero,"Av. Tecnológico 100, Col. Metepec Centro",56,Aceite Vegetal (1L),58.0,3,174.0,cancelado
+Francisco Tapia,"Av. de los Maestros 80, Col. Nueva Santa María",60,Mermelada de Fresa,42.0,4,168.0,pagado
+Graciela Bernal,"Av. Central 50, Col. Valle de Aragón",36,Esponja para Trastes,12.0,1,12.0,cancelado
+Daniel Méndez,"Av. Central 50, Col. Valle de Aragón",38,Chicharrones de Cerdo,15.0,3,45.0,cancelado
+Antonia Ruiz,"Calle Campeche 210, Col. Hipódromo",89,Jugo de Naranja (1L),32.0,4,128.0,cancelado
+Guadalupe Torres,"Av. Prolongación Paseo de la Reforma 1200, Col. Santa Fe",50,Esponja para Trastes,12.0,5,60.0,cancelado
+Mario Medina,"Boulevard Kukulcán 12.5, Zona Hotelera",64,Arroz Extra (1kg),35.5,5,177.5,pagado
+Juan García,"Av. Tecnológico 100, Col. Metepec Centro",31,Atún en Agua (140g),21.0,3,63.0,pagado
+Mercedes Ramos,"Calle Rayón 210, Barrio de la Merced",63,Sal de Mesa (1kg),15.5,1,15.5,pendiente
+Graciela Bernal,"Av. Central 50, Col. Valle de Aragón",36,Frijol Negro (1kg),42.0,1,42.0,pendiente
+Mario Medina,"Boulevard Kukulcán 12.5, Zona Hotelera",64,Jamón de Pavo (250g),58.0,4,232.0,pendiente
