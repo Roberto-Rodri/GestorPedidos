@@ -1,6 +1,6 @@
 # ============================================
 # Autor: Roberto Carlos Jimenez Rodriguez
-# Version: 1.0
+# Version: 2.0
 # Proposito: Generar de manera aleatoria datos
 # ============================================
 
@@ -112,48 +112,49 @@ nombres_clientes = [
     "Sonia Becerra",
 ]
 
-nombres_productos = [
-    "Arroz Extra (1kg)",
-    "Frijol Negro (1kg)",
-    "Aceite Vegetal (1L)",
-    "Leche Entera (1L)",
-    "Huevo Blanco (18 piezas)",
-    "Azúcar Estándar (1kg)",
-    "Sal de Mesa (1kg)",
-    "Harina de Trigo (1kg)",
-    "Pasta para Sopa (200g)",
-    "Atún en Agua (140g)",
-    "Mayonesa (390g)",
-    "Salsa de Tomate (210g)",
-    "Café Soluble (190g)",
-    "Cereal de Maíz (500g)",
-    "Galletas Marías (170g)",
-    "Pan de Caja Blanco",
-    "Tortillas de Harina (10 pzas)",
-    "Refresco de Cola (600ml)",
-    "Agua Mineral (600ml)",
-    "Jugo de Naranja (1L)",
-    "Papas Fritas Saladas",
-    "Chicharrones de Cerdo",
-    "Chocolate en Polvo (400g)",
-    "Mermelada de Fresa",
-    "Chiles Jalapeños en Vinagre",
-    "Queso Panela (400g)",
-    "Jamón de Pavo (250g)",
-    "Yogurt para Beber",
-    "Detergente en Polvo (900g)",
-    "Jabón de Trastes Líquido",
-    "Suavizante de Telas (1L)",
-    "Limpiador de Pisos (1L)",
-    "Cloro (1L)",
-    "Jabón de Tocador",
-    "Papel Higiénico (4 rollos)",
-    "Pasta de Dientes",
-    "Shampoo (750ml)",
-    "Servilletas (100 piezas)",
-    "Esponja para Trastes",
-    "Encendedor de Cocina",
-]
+# --- Diccionario de productos con precio por unidad (MXN) ---
+informacion_productos = {
+    "Arroz Extra (1kg)": 35.50,
+    "Frijol Negro (1kg)": 42.00,
+    "Aceite Vegetal (1L)": 58.00,
+    "Leche Entera (1L)": 27.50,
+    "Huevo Blanco (18 piezas)": 62.00,
+    "Azúcar Estándar (1kg)": 30.00,
+    "Sal de Mesa (1kg)": 15.50,
+    "Harina de Trigo (1kg)": 22.00,
+    "Pasta para Sopa (200g)": 11.50,
+    "Atún en Agua (140g)": 21.00,
+    "Mayonesa (390g)": 55.00,
+    "Salsa de Tomate (210g)": 14.00,
+    "Café Soluble (190g)": 115.00,
+    "Cereal de Maíz (500g)": 72.00,
+    "Galletas Marías (170g)": 18.50,
+    "Pan de Caja Blanco": 48.00,
+    "Tortillas de Harina (10 pzas)": 24.00,
+    "Refresco de Cola (600ml)": 19.00,
+    "Agua Mineral (600ml)": 14.50,
+    "Jugo de Naranja (1L)": 32.00,
+    "Papas Fritas Saladas": 17.50,
+    "Chicharrones de Cerdo": 15.00,
+    "Chocolate en Polvo (400g)": 65.00,
+    "Mermelada de Fresa": 42.00,
+    "Chiles Jalapeños en Vinagre": 19.50,
+    "Queso Panela (400g)": 82.00,
+    "Jamón de Pavo (250g)": 58.00,
+    "Yogurt para Beber": 16.00,
+    "Detergente en Polvo (900g)": 45.00,
+    "Jabón de Trastes Líquido": 32.50,
+    "Suavizante de Telas (1L)": 38.00,
+    "Limpiador de Pisos (1L)": 26.00,
+    "Cloro (1L)": 16.50,
+    "Jabón de Tocador": 14.00,
+    "Papel Higiénico (4 rollos)": 34.00,
+    "Pasta de Dientes": 38.00,
+    "Shampoo (750ml)": 85.00,
+    "Servilletas (100 piezas)": 25.00,
+    "Esponja para Trastes": 12.00,
+    "Encendedor de Cocina": 28.00
+}
 
 # --- Estados de los pedidos ---
 
@@ -283,6 +284,12 @@ for i in range(1, 21):
     # Eleccion de un nombre de manera aleatoria
     nombre_elegido = random.choice(list(clientes_info.keys()))
 
+    # Eleccion de un producto de manera aleatoria
+    producto_elegido = random.choice(list(informacion_productos.keys()))
+    precio_unitario = informacion_productos[producto_elegido]
+    cantidad = random.randint(1,5)
+    total = precio_unitario * cantidad
+
     # Obtenencion de datos para nombre_elegido
     info_del_cliente = clientes_info[nombre_elegido]
 
@@ -291,10 +298,14 @@ for i in range(1, 21):
         "cliente": nombre_elegido,
         "direccion": info_del_cliente["direccion"],
         "edad_cliente": info_del_cliente["edad"],
-        "producto": random.choice(nombres_productos),
-        "cantidad": random.randint(1, 5),
+        "producto": producto_elegido,
+        "precio": precio_unitario,
+        "cantidad": cantidad,
+        "total": total,
         "estado": random.choice(estados),
     }
 
 # --- Convertir a DataFrame pedidos ---
 df_pedidos = pd.DataFrame.from_dict(pedidos, orient="index")
+
+print(df_pedidos[df_pedidos["estado"] == "pagado"][["precio", "cantidad", "total"]])
