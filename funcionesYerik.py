@@ -2,7 +2,7 @@ import unicodedata as u
 
 
 def consultar_info(d, nombre):
-    acentos = lambda s: (
+    acentos = lambda s: (  # noqa: E731
         u.normalize("NFKD", s).encode("ascii", errors="ignore").decode("utf-8")
     )
     nombre_limpio = acentos(nombre)

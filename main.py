@@ -41,7 +41,7 @@ while True:
             print(y.inferir_info(df))
             print("=" * 50, "\n")
         case "5":
-            total_pagados = n.total_pagados(df)
+            total_pagados = y.total_pagados(df)
             print("=" * 50)
             print(f"El ingreso total de los pedidos pagados es: {total_pagados}")
             print("=" * 50, "\n")
