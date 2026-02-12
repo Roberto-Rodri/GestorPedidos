@@ -1,21 +1,21 @@
 cliente,direccion,edad_cliente,producto,precio,cantidad,total,estado
-Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Mayonesa (390g),55.0,4,220.0,cancelado
-Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Tortillas de Harina (10 pzas),24.0,5,120.0,pendiente
-Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jabón de Tocador,14.0,4,56.0,cancelado
-Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Aceite Vegetal (1L),58.0,3,174.0,pagado
-Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Pasta para Sopa (200g),11.5,1,11.5,pendiente
-Josefa Vázquez,"Av. Canal de Miramontes 300, Col. Coapa",99,Huevo Blanco (18 piezas),62.0,1,62.0,pagado
-Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Suavizante de Telas (1L),38.0,2,76.0,pagado
-Pedro Ramírez,"Av. Chapultepec 77, Col. Roma Norte",79,Frijol Negro (1kg),42.0,4,168.0,pendiente
-Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Refresco de Cola (600ml),19.0,4,76.0,cancelado
-Patricia Leyva,"Calle Veracruz 8, Col. Rodríguez",67,Papas Fritas Saladas,17.5,1,17.5,pendiente
-Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Aceite Vegetal (1L),58.0,3,174.0,pendiente
-Rosario Galván,"Calle Belisario Domínguez 3, Col. Centro",39,Tortillas de Harina (10 pzas),24.0,2,48.0,cancelado
-Sandra Valencia,"Calle Sonora 140, Col. Roma Sur",97,Atún en Agua (140g),21.0,5,105.0,pendiente
-Amalia Tovar,"Av. Insurgentes Sur 1520, Col. Del Valle",45,Limpiador de Pisos (1L),26.0,3,78.0,cancelado
-Mario Medina,"Av. Prolongación Guerrero 15, Col. Centro",27,Frijol Negro (1kg),42.0,3,126.0,cancelado
-María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Huevo Blanco (18 piezas),62.0,4,248.0,cancelado
-Araceli Zúñiga,"Av. Patria 450, Col. Zapopan Centro",73,Jamón de Pavo (250g),58.0,4,232.0,cancelado
-María Rodríguez,"Av. Manuel J. Clouthier 45, Col. Pilares",46,Queso Panela (400g),82.0,2,164.0,cancelado
-Silvia Castro,"Calle Independencia 70, Col. Santa María",62,Jabón de Trastes Líquido,32.5,1,32.5,pagado
-Pilar Juárez,"Calle Tabasco 55, Col. Roma Norte",31,Sal de Mesa (1kg),15.5,2,31.0,pagado
+Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Azúcar Estándar (1kg),30.0,2,60.0,pendiente
+Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Arroz Extra (1kg),35.5,1,35.5,pendiente
+Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Yogurt para Beber,16.0,2,32.0,pendiente
+Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Sal de Mesa (1kg),15.5,3,46.5,cancelado
+Carlos Jiménez,"Calle Corregidora 12, Centro Histórico",30,Chocolate en Polvo (400g),65.0,3,195.0,pendiente
+Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Queso Panela (400g),82.0,5,410.0,pagado
+Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Agua Mineral (600ml),14.5,4,58.0,pendiente
+Gloria Silva,"Av. Marina Nacional 60, Col. Anáhuac",85,Shampoo (750ml),85.0,3,255.0,cancelado
+Eduardo Romero,"Calle Aguascalientes 45, Col. Roma",30,Queso Panela (400g),82.0,5,410.0,pendiente
+Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Mermelada de Fresa,42.0,3,126.0,pagado
+Patricia Leyva,"Calle Corregidora 12, Centro Histórico",85,Esponja para Trastes,12.0,3,36.0,pagado
+Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Cereal de Maíz (500g),72.0,5,360.0,cancelado
+Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Galletas Marías (170g),18.5,4,74.0,cancelado
+Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Frijol Negro (1kg),42.0,3,126.0,pendiente
+Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Atún en Agua (140g),21.0,5,105.0,pagado
+Rebeca Granados,"Av. Adolfo López Mateos 30, Col. Jardines",39,Cloro (1L),16.5,2,33.0,cancelado
+Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Refresco de Cola (600ml),19.0,5,95.0,cancelado
+Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Pasta para Sopa (200g),11.5,4,46.0,cancelado
+Ignacio Guerrero,"Calle Sonora 140, Col. Roma Sur",66,Detergente en Polvo (900g),45.0,1,45.0,pendiente
+Leonardo Pacheco,"Av. Eugenio Garza Sada 2501, Col. Tecnológico",89,Galletas Marías (170g),18.5,5,92.5,pagado

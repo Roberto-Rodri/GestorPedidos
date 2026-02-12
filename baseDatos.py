@@ -307,5 +307,4 @@ for i in range(1, 21):
 
 # --- Convertir a DataFrame pedidos ---
 df_pedidos = pd.DataFrame.from_dict(pedidos, orient="index")
-
-print(df_pedidos[df_pedidos["estado"] == "pagado"][["precio", "cantidad", "total"]])
+df_pedidos.to_csv("pedidos.csv", index = False)
