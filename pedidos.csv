@@ -1,21 +1,21 @@
 cliente,direccion,edad_cliente,producto,precio,cantidad,total,estado
-Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Azúcar Estándar (1kg),30.0,2,60.0,pendiente
-Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Arroz Extra (1kg),35.5,1,35.5,pendiente
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Yogurt para Beber,16.0,2,32.0,pendiente
-Fermín Barajas,"Calle 16 de Septiembre 12, Col. Juárez",27,Sal de Mesa (1kg),15.5,3,46.5,cancelado
-Carlos Jiménez,"Calle Corregidora 12, Centro Histórico",30,Chocolate en Polvo (400g),65.0,3,195.0,pendiente
-Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Queso Panela (400g),82.0,5,410.0,pagado
-Mónica Espinoza,"Calle Iturbide 99, Col. Centro",78,Agua Mineral (600ml),14.5,4,58.0,pendiente
-Gloria Silva,"Av. Marina Nacional 60, Col. Anáhuac",85,Shampoo (750ml),85.0,3,255.0,cancelado
-Eduardo Romero,"Calle Aguascalientes 45, Col. Roma",30,Queso Panela (400g),82.0,5,410.0,pendiente
-Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Mermelada de Fresa,42.0,3,126.0,pagado
-Patricia Leyva,"Calle Corregidora 12, Centro Histórico",85,Esponja para Trastes,12.0,3,36.0,pagado
-Marcos Rosas,"Calle Independencia 70, Col. Santa María",40,Cereal de Maíz (500g),72.0,5,360.0,cancelado
-Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Galletas Marías (170g),18.5,4,74.0,cancelado
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Frijol Negro (1kg),42.0,3,126.0,pendiente
-Matías Mares,"Calle Ignacio Allende 44, Barrio del Artista",20,Atún en Agua (140g),21.0,5,105.0,pagado
-Rebeca Granados,"Av. Adolfo López Mateos 30, Col. Jardines",39,Cloro (1L),16.5,2,33.0,cancelado
-Dolores Flores,"Av. Primero de Mayo 10, Col. Industrial",63,Refresco de Cola (600ml),19.0,5,95.0,cancelado
-Francisco López,"Calle Aldama 12, Barrio de Jalatlaco",23,Pasta para Sopa (200g),11.5,4,46.0,cancelado
-Ignacio Guerrero,"Calle Sonora 140, Col. Roma Sur",66,Detergente en Polvo (900g),45.0,1,45.0,pendiente
-Leonardo Pacheco,"Av. Eugenio Garza Sada 2501, Col. Tecnológico",89,Galletas Marías (170g),18.5,5,92.5,pagado
+Carmen Hernández,"Calle Quintana Roo 55, Col. Roma Sur",92,Huevo Blanco (18 piezas),62.0,2,124.0,cancelado
+Francisco López,"Calle Galeana 14, Col. Centro",19,Tortillas de Harina (10 pzas),24.0,3,72.0,cancelado
+Pilar Juárez,"Av. Chapultepec 77, Col. Roma Norte",99,Salsa de Tomate (210g),14.0,3,42.0,pendiente
+Carlos Jiménez,"Calle Quetzalcóatl 12, Barrio de San Miguel",55,Papel Higiénico (4 rollos),34.0,1,34.0,cancelado
+Joaquín Parra,"Calle Benito Juárez 88, Barrio San Juan",33,Papas Fritas Saladas,17.5,2,35.0,pendiente
+Mauricio Orozco,"Calle Sinaloa 55, Col. Peñitas",60,Azúcar Estándar (1kg),30.0,1,30.0,pagado
+Amalia Tovar,"Av. Constitución 400, Col. Obrera",82,Galletas Marías (170g),18.5,4,74.0,cancelado
+Francisco López,"Calle Galeana 14, Col. Centro",19,Huevo Blanco (18 piezas),62.0,4,248.0,cancelado
+Lorena Meza,"Calle Quetzalcóatl 12, Barrio de San Miguel",34,Suavizante de Telas (1L),38.0,3,114.0,pendiente
+Carlos Jiménez,"Calle Quetzalcóatl 12, Barrio de San Miguel",55,Leche Entera (1L),27.5,5,137.5,cancelado
+Amalia Tovar,"Av. Constitución 400, Col. Obrera",82,Aceite Vegetal (1L),58.0,5,290.0,cancelado
+Víctor Vargas,"Calle Emiliano Zapata 9, Col. Doctores",37,Pasta de Dientes,38.0,3,114.0,pendiente
+Mercedes Ramos,"Calle Guerrero 22, Col. Centro",59,Pasta para Sopa (200g),11.5,2,23.0,pendiente
+Amalia Tovar,"Av. Constitución 400, Col. Obrera",82,Yogurt para Beber,16.0,1,16.0,cancelado
+Alberto Rojas,"Av. Pedro Infante 1500, Col. Recursos Hidráulicos",42,Azúcar Estándar (1kg),30.0,5,150.0,pendiente
+Gregorio Saucedo,"Av. Prolongación Guerrero 15, Col. Centro",28,Aceite Vegetal (1L),58.0,4,232.0,pagado
+Gregorio Saucedo,"Av. Prolongación Guerrero 15, Col. Centro",28,Cereal de Maíz (500g),72.0,2,144.0,pendiente
+Francisco López,"Calle Galeana 14, Col. Centro",19,Jabón de Trastes Líquido,32.5,1,32.5,pagado
+Carmen Hernández,"Calle Quintana Roo 55, Col. Roma Sur",92,Arroz Extra (1kg),35.5,3,106.5,pagado
+Pilar Juárez,"Av. Chapultepec 77, Col. Roma Norte",99,Harina de Trigo (1kg),22.0,3,66.0,pagado
